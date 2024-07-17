@@ -1,0 +1,30 @@
+@font-face {
+  font-family:"Gange";
+  src: url("./font/gange.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gange";
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.experience {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
